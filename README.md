@@ -1,6 +1,6 @@
 # The significance of molecular heterogeneity in breast cancer batch correction and dataset integration
 
-Moir, N., Pearce, D., Kitchen, R., Langdon, S.,  Simpson, T.I., Sims, A (2024).
+Moir, N., et al (2024).
 
 ## Supplemental information
 
