@@ -17,9 +17,14 @@ A further PAM50 stratified batch correction approach was evaluated, where each o
 
 
 ## Data
-This brief communication leverages the following two distinct datasets:
+This brief communication leverages the following three distinct datasets:
 ### METABRIC
-METABRIC consortium data was first described by [Curtis et al. 2012](https://www.nature.com/articles/nature10983) and later by [Pereira et al. 2016](https://www.nature.com/articles/ncomms11479).  Expression data is available following authorisation by the METABRIC data access committee of the European Genome Archive. Primary EGAF00000102986/ discovery (n = 997) and EGAF00000102987/validation (n = 989) log2 normalised validation and discovery expression datasets were downloaded using the EGA python client version 3.4.1. Corresponding METABRIC sample clinical data, including PAM50 molecular subtype assignment, is contained within supplementary files provided by [Curtis et al. 2012](https://static-content.springer.com/esm/art%3A10.1038%2Fnature10983/MediaObjects/41586_2012_BFnature10983_MOESM266_ESM.zip).
+METABRIC consortium data was first described by [Curtis et al. 2012](https://www.nature.com/articles/nature10983) and later by [Pereira et al. 2016](https://www.nature.com/articles/ncomms11479).  Expression data is available following authorisation by the METABRIC data access committee of the European Genome Archive. Primary EGAF00000102986/ discovery (n = 997) and EGAF00000102987/validation (n = 989) log2 quantile normalised validation and discovery expression datasets were downloaded using the EGA python client version 3.4.1. Corresponding METABRIC sample clinical data, including PAM50 molecular subtype assignment, is contained within supplementary files provided by [Curtis et al. 2012](https://static-content.springer.com/esm/art%3A10.1038%2Fnature10983/MediaObjects/41586_2012_BFnature10983_MOESM266_ESM.zip).
+
+###TCGA BRCA
+
+TCGA-BRCA counts were obtained from #######. The data was transformed using a variance-stabilising transformation prior to correction.
+
 
 ### GSE6532
 Breast cancer gene expression dataset GSE6532 is freely available from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6532 and was obtained using the getGEO function of the R [GEOquery](https://bioconductor.org/packages/release/bioc/html/GEOquery.html) package:
