@@ -25,13 +25,14 @@ METABRIC consortium data was first described by [Curtis et al. 2012](https://www
 
 TCGA-BRCA mRNA counts were obtained using tcgabiolinks. The data was transformed using a variance-stabilising transformation prior to correction, allowing a direct comparison using standard ComBat. Batch effects, resulting from different flow-cell processing of the samples, has been reported by [Molania et al. 2023](https://www.nature.com/articles/s41587-022-01440-w). Samples were processed between 2010 and 2014, with 2010/2011 samples using different processing pipeline than 2012/2013/2014 samples.
 
-| Year   | Samples (n) | 
-|--------|:-----:|
-| 2010 | 361 |
-| 2011 | 591 |
-| 2012 | 82 |
-| 2013 | 120 |
-| 2014 | 42 |
+| Batch | Year   | Samples (n) | 
+|-------|--------|:-----:|
+| 1 | 2010 | 361 |
+| 1 | 2011 | 591 |
+| 2 | 2012 | 82 |
+| 2 | 2013 | 120 |
+| 2 | 2014 | 42 |
+*Table A. Batches in TCGA-BRCA dataset were assigned corresponing to sample processing date*
 
 
 ### GSE6532
@@ -57,7 +58,7 @@ Group 1 (149 samples) contains samples processed between  2003-04-22 and 2003-07
 | 2 |  69 | 2003-08-01 to 2003-09-23 |
 | 3 | 109 | 2004-07-28 to 2004-09-02 |
 
-*Table A. Batches identified in dataset GSE6532 correlate with analysis date contained with source .cel files*
+*Table B. Batches identified in dataset GSE6532 correlate with analysis date contained with source .cel files*
 
 
 ## Molecular subtype distribution
@@ -68,7 +69,7 @@ METABRIC PAM50 molecular subtype classifications were obtained from the original
 | Discovery | 118 | 466 | 268 | 87 | 58 | 
 | Validation | 213 | 255 | 224 | 153 | 144 | 
 
-*Table B. METABRIC PAM50 molecular subtype classifications*
+*Table C. METABRIC PAM50 molecular subtype classifications*
 
 
 PAM50 classification of samples within the GSE6532 dataset were conducted using molecular.subtyping function of the R [AIMS](https://bioconductor.org/packages/release/bioc/html/AIMS.html) library. Sample assigments were designated using the whole dataset and assignments confirmed by re-running the classification individually for each batch of samples.  
@@ -79,7 +80,7 @@ PAM50 classification of samples within the GSE6532 dataset were conducted using 
 | 2 | 17 | 27 | 24 | 25| 56 | 
 | 3 | 0  | 30 | 43 | 15| 21 | 
 
-*Table C. GSE6532 PAM50 molecular subtype classifications*
+*Table D. GSE6532 PAM50 molecular subtype classifications*
 
 ## Visualisation of biomarker expression augmentation
 
