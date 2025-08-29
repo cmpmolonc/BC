@@ -91,7 +91,7 @@ TCGA PAM50 molecular subtype clasifications from the original 2012 [Nature] (htt
 | 1 | 137 | 414 | 185 | 67 | 24 | 
 | 2 | 48 | 138 | 21 | 14 | 14 | 
  
-*Table E. GSE6532 PAM50 molecular subtype classifications*
+*Table E. TCGA-BRCA PAM50 molecular subtype classifications*
 
 
 ## Visualisation of biomarker expression augmentation
