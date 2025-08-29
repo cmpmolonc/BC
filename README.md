@@ -131,3 +131,10 @@ GSE6532 probes 205225_at (ESR1), 216836_s_at (ERBB2) and 204092_s_at (AURKA) are
 *Figure H. GSE6532 post-correction expression of AURKA within PAM50 subtypes and between batches.*
 
 Analysis of dataset GSE6532 shows that ESR1 expression ican be adversely affected by ComBat batch correction.  We see in figures F,G and H (above) that statistically significant differences between batches within PAM50 subtypes are fewer within this dataset. With ESR1 expression however,  PAM50 stratifed ComBat appears to perform most effectively at removing technical differences while retaining biological signal.
+
+### TCGA-BRCA
+
+Transcripts ENSG00000091831 (ESR1), ENSG00000087586 (AURKA) and ENSG00000141736 (ERBB2) are used to evaluate batch correction expression augmentation.
+
+![Optional Text](images/TCGA_BC_ESR1_facet_switch.png)
+*Figure I. TCGA-BRCA post-correction expression of ESR1 within PAM50 subtypes and between batches.*
