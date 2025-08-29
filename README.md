@@ -26,12 +26,13 @@ METABRIC consortium data was first described by [Curtis et al. 2012](https://www
 TCGA-BRCA mRNA counts were obtained using tcgabiolinks. The data was transformed using a variance-stabilising transformation prior to correction, allowing a direct comparison using standard ComBat. Batch effects, resulting from different flow-cell processing of the samples, has been reported by [Molania et al. 2023](https://www.nature.com/articles/s41587-022-01440-w). Samples were processed between 2010 and 2014, with 2010/2011 samples using different processing pipeline than 2012/2013/2014 samples.
 
 | Batch | Year   | Samples (n) | 
-|-------|--------|:-----:|
+|-------|:--------:|:-----:|
 | 1 | 2010 | 361 |
 | 1 | 2011 | 591 |
 | 2 | 2012 | 82 |
 | 2 | 2013 | 120 |
 | 2 | 2014 | 42 |
+
 *Table A. Batches in TCGA-BRCA dataset were assigned corresponing to sample processing date*
 
 
