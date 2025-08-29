@@ -138,3 +138,10 @@ Transcripts ENSG00000091831 (ESR1), ENSG00000087586 (AURKA) and ENSG00000141736 
 
 ![Optional Text](images/TCGA_BC_ESR1_facet_switch.png)
 *Figure I. TCGA-BRCA post-correction expression of ESR1 within PAM50 subtypes and between batches.*
+
+
+
+![Optional Text](images/TCGA_BC_ERBB2_facet_switch.png)
+*Figure J. TCGA-BRCA post-correction expression of ERBB2 within PAM50 subtypes and between batches.*
+
+
