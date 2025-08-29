@@ -83,6 +83,17 @@ PAM50 classification of samples within the GSE6532 dataset were conducted using 
 
 *Table D. GSE6532 PAM50 molecular subtype classifications*
 
+
+TCGA PAM50 molecular subtype clasifications from the original 2012 [Nature] (https://doi.org/10.1038/nature11412) article. 
+
+| Batch      | Basal | Luminal A | Luminal B | Her2 | Normal |
+|--------------|:-----:|:-----------:|:---------:|:----------:|--------:|
+| 1 | 137 | 414 | 185 | 67 | 24 | 
+| 2 | 48 | 138 | 21 | 14 | 14 | 
+ 
+*Table E. GSE6532 PAM50 molecular subtype classifications*
+
+
 ## Visualisation of biomarker expression augmentation
 
 Effective batch correction removes technical effects but retains vital biological signal. Evaluation of ESR1, ERBB2 and AURKA expression is used to visualise batch correction effects. While the main manuscript submission includes only results where there are statistically significant differences within PAM50 subtypes, there is full inclusion of not significant results here.
