@@ -23,7 +23,7 @@ METABRIC consortium data was first described by [Curtis et al. 2012](https://www
 
 ### TCGA BRCA
 
-TCGA-BRCA counts were obtained from #######. The data was transformed using a variance-stabilising transformation prior to correction.
+TCGA-BRCA mRNA counts were obtained using tcgabiolinks. The data was transformed using a variance-stabilising transformation prior to correction, allowing a direct comparison using standard ComBat for correction.
 
 
 ### GSE6532
