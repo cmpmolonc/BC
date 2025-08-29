@@ -144,3 +144,6 @@ Transcripts ENSG00000091831 (ESR1), ENSG00000087586 (AURKA) and ENSG00000141736 
 
 ![Optional Text](images/GSE6532_BC_AURKA_facet_switch.png)
 *Figure K. TCGA-BRCA post-correction expression of AURKA within PAM50 subtypes and between batches.*
+
+Both AURKA and ESR1 plots show evidence of parametric, non-parametric and covariate ComBat introducing significant expression differences between sample batches. Analysis of TCGA-BRCA correction also indicates the superiority of PAM50-driven correction approaches at removing technical batch effects. 
+
