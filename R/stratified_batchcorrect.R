@@ -1,12 +1,13 @@
-#' Stratified batch correction with PAM50
-#'
-#' @param exprs     Expression matrix (genes x samples), log2 normalised
-#' @param batch     Factor vector of batch (e.g., discovery vs validation)
-#' @param pam50     Factor vector of PAM50 labels, length = ncol(exprs)
-#' @return          Batch-corrected expression matrix
-#'
-#' @examples
-#' corrected <- stratified_batchcorrect(exprs, batch, pam50)
+# Stratified batch correction with PAM50 labels
+# Samples have been previously assigned a PAM50 subtype. 
+#
+# @param exprs     Expression matrix (genes x samples), log2 normalised
+# @param batch     Factor vector of batch (e.g., discovery vs validation)
+# @param pam50     Factor vector of PAM50 labels, length = ncol(exprs)
+# @return          Batch-corrected expression matrix
+#
+#
+# Example usage: corrected <- stratified_batchcorrect(exprs, batch, pam50)
 
 stratified_batchcorrect <- function(exprs, batch, pam50) {
   if (!requireNamespace("sva", quietly = TRUE)) {
