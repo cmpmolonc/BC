@@ -4,8 +4,8 @@
 
 
 exprs<-assay(TCGAVSD) # expression values of variance-stabilised TCGA-BRCA
-batch<-readRDS("/home/nmoir/BC/R/TCGA_batch_factor.rds") 
-pam50<-readRDS("/home/nmoir/BC/R/TCGA_PAM50_factor.rds")
+batch<-readRDS("TCGA_batch_factor.rds") 
+pam50<-readRDS("TCGA_PAM50_factor.rds")
 
 
 stopifnot(all(colnames(exprs) %in% names(batch)))
